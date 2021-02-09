@@ -1,0 +1,116 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("images/background-image.jpg");
+    background-attachment: fixed;
+}
+
+.github-button {
+    position: relative;
+    left: 90%;
+    bottom: -60px;
+}
+
+.namemc-button {
+    position: relative;
+    left: 95%;
+    bottom: 35px;
+}
+
+.presentation {
+    position: relative;
+    width: 100%;
+    max-width: 960px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.presentation h1 {
+    position: relative;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: rgb(70, 70, 70);
+    font-size: 50px;
+    top: 50px;
+    font-weight: 1;
+
+    animation-name: horizontal-h1-appearence;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+.presentation h2 {
+    position: relative;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: rgb(70, 70, 70);
+    top: 30px;
+    font-weight: 1;
+
+    animation-name: horizontal-h2-appearence;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+#presentation-img {
+    position: relative;
+    display: inline-block;
+    top: 30px;
+    margin: 0 32%;
+    
+    animation-name: horizontal-button-appearence;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+#contact-me-img {
+    position: relative;
+    display: inline-block;
+
+    top: -15px;
+    margin: 0 50%;
+    
+    animation-name: contact-me-appearence;
+    animation-duration: 1.3s;
+    animation-iteration-count: 1;
+}
+
+@keyframes horizontal-h1-appearence {
+    to {
+        top: 50px;
+    }
+
+    from {
+        top: -400px;
+    } 
+}
+
+@keyframes horizontal-h2-appearence {
+    to {
+        top: 30px;
+    }
+
+    from {
+        top: -300px;
+    } 
+}
+
+@keyframes horizontal-button-appearence {
+    to {
+        top: 30px;
+    }
+
+    from {
+        top: 260px;
+    } 
+}
+
+@keyframes contact-me-appearence {
+    to {
+        top: -15px;
+    }
+
+    from {
+        top: 280px;
+    } 
+}
